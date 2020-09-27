@@ -1,0 +1,19 @@
+{
+  "name": "bs-cmdliner",
+  "version": "0.1.0",
+  "main": "./dist",
+  "scripts": {
+    "postinstall": "npm run build",
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world && cp -r cmdliner/src/ ./dist",
+    "watch": "bsb -make-world -w"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^8.2.0"
+  }
+}

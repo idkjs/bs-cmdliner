@@ -1,0 +1,17 @@
+{
+  "name": "bs-cmdliner",
+  "version": "0.1.0",
+  "sources": [
+    "cmdliner/src",
+    "result"
+  ],
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "warnings": {
+    "number": "-6-27-32-35-44"
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": []
+}
